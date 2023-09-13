@@ -1,0 +1,7 @@
+bootstrap.servers=kafka:9092
+
+plugin.library.paths=monitoring-interceptor
+
+partitioner=murmur2_random
+
+linger.ms=3000
